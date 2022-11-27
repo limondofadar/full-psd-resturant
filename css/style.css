@@ -1,0 +1,400 @@
+/* all common css  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+p, h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* all common css  */
+
+/* nav bar start  */
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    z-index: 9999;
+}
+
+
+.add_class{
+position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+   background: rgba(0, 0, 0, 0.66);
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   transition: .5s;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: #fff;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-left: 42px;
+}
+
+/* navbar end  */
+/* banar part start  */
+#banar_part{
+    padding-top: 245px;
+    padding-bottom: 145px;
+    background: url(../images/banar.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+.banar_text h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 90px;
+    font-weight: 400;  
+    color: #fff;
+    line-height: 150px;
+}
+
+.banar_text a{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.409);
+    border: 1px solid black;
+    transition: .5s;
+    
+
+}
+
+.banar_text a:hover{
+    background: rgba(255, 255, 255, 0.409);
+    border: 1px solid rgba(255, 255, 255, 0.409);
+
+}
+
+/* banar part end  */
+
+/* service part start  */
+
+#service_part{
+    padding-top: 110px;
+    padding-bottom: 90px;
+    background: url(../images/service_part.png) no-repeat center;
+    background-size: cover;
+}
+
+.service_text{
+display: flex;
+flex-direction: column;
+justify-content: center; 
+align-items: center;
+
+}
+
+.service_text picture{
+    margin: 15px 0 30px;
+
+}
+
+.service_text h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #cc9900;
+
+}
+.service_text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4c4c4c;
+    line-height: 24px;
+    width: 416px;
+
+}
+.col-lg-6 picture{
+    width: 100%;
+}
+/* service part end  */
+
+#recipy_part{
+    padding: 100px 0;
+    background: url(../images/recipy.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+.recipy_item{
+    padding: 80px;
+    background: rgba(0, 0, 0, 0.683);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#recipy_part .container .row{
+    display: flex;
+    justify-content: end;
+}
+
+.recipy_images{
+ display: flex;
+ justify-content: space-between;  
+  
+   
+}
+
+.recipy_images picture{
+display: flex;
+justify-content: center;
+gap: 30px;
+
+}
+
+.recipy_item h2{
+    font-family: 'Yeseva One', cursive;
+    font-size:36px;
+    font-weight: 400;
+  
+}
+
+.recipy_item picture img{
+    padding: 15px 0 30px;
+}
+
+.recipy_item p{
+   font-family: 'Lato', sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 410px;
+    padding-bottom: 40px;
+  
+}
+
+/* pattern part start  */
+#pattern_part{
+    padding-top: 105px;
+    padding-bottom: 100px;
+    background: url(../images/pattern_part.png) no-repeat center;
+    background-size: cover;
+}
+
+
+.menu_price_part h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #cc9900;
+    padding-bottom: 16px;
+}
+.menu_price_part .left h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    font-weight: 400;
+    color: #cc9900;
+    padding-bottom: 13px;
+    padding-top: 30px;
+} 
+
+.menu_price_part .left{
+    border-bottom: 1px solid #cc9900;
+ 
+}
+
+.menu_price_part p{
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4c4c4c;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+/* pattern part end */
+/* recipy part start  */
+#recipy_part_two{
+  padding-bottom: 100px;
+  padding-top: 105px;
+  background: url(../images/recipy_two.jpg) no-repeat center;
+  background-size: cover;
+
+}
+
+.recipy_two{
+    position: relative;
+  width: 775px;
+
+padding-top:82px ;
+padding-bottom:105px ;
+padding-left: 70px;
+padding-right: 70px;
+  background: rgba(0, 0, 0, 0.607);
+}
+
+.recipy_two h2{
+    font-family: 'Yeseva One', cursive;
+    font-size:36px;
+    font-weight: 400;
+}
+
+.recipy_two p{
+    font-family: 'Gentium Book Basic', serif;
+    font-size:23px;
+    font-weight: 700;
+    line-height: 45px;
+  
+}
+
+
+.recipy_two img{
+    padding-top:25px;
+    padding-bottom: 30px;
+}
+.recipy_two h6{
+    font-family: 'Lato', sans-serif;
+    font-size:18px;
+    font-weight: 400;
+    padding-top: 50px;
+
+}
+
+.recipy_two p span{
+    font-family: 'Noto Serif Georgian', serif;
+    font-weight: 400;
+    font-size: 96px;
+    color: #9d9c9a;
+    position: absolute;
+    left: 5%;
+
+}
+/* recipy part end */
+
+/* purchase part start  */
+#purchase{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/patten_end.png) no-repeat center;
+    background-size: cover;
+}
+
+.left_images img{
+    width: 100%;
+    height: 526px;
+}
+.text_purchas h2{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+}
+
+.text_purchas{
+    text-align: center;
+}
+.text_purchas img{
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+.text_purchas p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+    color: #4c4c4c;
+    padding: 0 60px;
+    padding-bottom: 50px;
+  
+    
+}
+
+
+.from_part h3{
+    font-size: 14px;
+    font-weight: 700;
+    color: #cc9900;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+
+.from_part .from_item input{
+background: transparent;
+border: none;
+border: 2px solid #c8c6c6;
+padding-left: 15px;
+height: 30px;
+width: 200px;
+}
+
+
+.from_part .from_item input:hover{
+    border:2px solid #cc9900; 
+}
+
+.from_item input::placeholder{
+    color: #7c7c7c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    
+}
+
+.text_purchas a{
+    margin-top: 35px;
+    padding: 10px 60px;
+    background: #c9a131;
+    display: inline-block;
+    color: #fff;
+}
+
+
+/* purchase part end */
+
+/* bottom part start  */
+#bottom_part{
+padding-top: 60px;
+padding-bottom: 70px;
+background:#191919;
+}
+
+.bottom_text_one h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    font-weight: 400;
+
+}
+
+.bottom_text_one img{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.bottom_text_one p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.bottom_text_one i{
+ 
+    padding: 5px;
+    padding-top: 50px;
+}

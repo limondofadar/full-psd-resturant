@@ -1,0 +1,11 @@
+    font-family: 'Gentium Book Basic', serif;
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Yeseva One', cursive;
+
+    font-family: 'Noto Serif Georgian', serif;
